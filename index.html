@@ -1,39 +1,63 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Bik Craft</title>
-	<link rel="stylesheet" href="">
-	<script src=""></script>
+     <meta charset="utf-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>bik craft</title>
+     <link rel="stylesheet" href="css/reset.css">
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/animate.css">
+     <link rel="stylesheet" href="css/styles.css">
+     <script src="js/animacao.js"></script>
 </head>
 <body>
-	<a href="index.html"><img src="img/bikcraft.png" alt=""></a>
-	
-     	<li>Sobre</li>
-     	<li>produtos</li>
-     	<li>Portifólio</li>
-     	<li>Contato</li>
-     </ul>
-          <a href=""></a>
-	 <img src="img/bg.jpg" alt="img background">
-     <h1>Bicicletas feitas a mão</h1>
-     <h2>Produtos</h2>
-     <ul>
-     	<li>
-     		<img src="img/produtos/passeio.png" alt="Bicicleta passeio"></li>
-     	<h3>Passeio</h3>
-     	<p></p>
+     <header class="header">
+          <div class="container">
+               <a href="index.html" class="col-md-4 com-sm-4 col-xs-4">
+                    <img src="img/bikcraft.png" alt="">
+               </a>
+               <nav class="col-md-8 col-sm-8 col-xs-8 header_menu">
+                    <ul>
 
-     	<li><img src="img/produtos/esporte.png" alt="Bicicletas esporte"></li>
-     	<h3>Esporte</h3>
-     	<p></p>
+                         <li><a href="sobre.html">Sobre</a></li>
+                         <li><a href="Produtos.html">Produtos</a></li>
+                         <li><a href="Portiifólio.html">Portiifólio</a></li>
+                         <li><a href="Contato.html">Contato</a></li>
+                    <ul>
+               </nav>
+          </div>
+     </header>
 
-     	<li><img src="img/produtos/retro.png" alt="Bicicleta retro"></li>
-     	<h3>Retro</h3>
-     	<p></p>
-     </ul>
+     <section class="row introducao">
+          <div class="container animated fadeInDown">
+               <h1>Bicicletas Feitas a Mão</h1>
+               <blockquote class="quote-externo">
+                    <p>"não tenha nada em sua casa que voce não considere útil ou acredita ser bonito"</p>
+                    <cite>WILLIAM MORRIS</cite>
+               </blockquote>
+               <a href="produtos.html" class="btn botao">Orçamento</a>
+          </div>
+     </section>
 
-     
-</body>
-</html>
+     <section class="container produtos animated fadeInDown">
+               <h2 class="subtitulo">Produtos</h2>
+          <ul class="produtos_lista">
+               <li class="col-md-4 col-sm-4 col-xs-8"><div class="produtos_icone"><img src="img/produtos/passeio.png" alt="">
+               </div>
+               <h3>Passeio</h3>
+               <p>Muito melhor do que passear pela orla a vidros fechados.</p></li>
+               <li class="col-md-4 col-sm-4 col-xs-8"><div class="produtos_icone"><img src="img/produtos/esporte.png" alt="">
+               </div>     
+               <h3>Esporte</h3>
+               <p>Mais rápido do que Forrest Gump, nimguém vai pegar você.</p></li>
+               <li class="col-md-4 col-sm-4 col-xs-8"><div class="produtos_icone"><img src="img/produtos/retro.png" alt="">
+               </div>     
+               <h3>Retro</h3>
+               <p>O passado volta para lembrarmos o que devemos fazer no futuro.</p></li>
+          </ul>
+     </section>
+
+     </body>
+</html
